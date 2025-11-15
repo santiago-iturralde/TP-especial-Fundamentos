@@ -36,7 +36,7 @@ Estas instrucciones te guiarán para crear un entorno aislado y correr el notebo
 ### 1. Clona el Repositorio
 Abre tu terminal, navega hasta la carpeta donde quieras alojar el proyecto y ejecuta:
 ```bash
-git clone [https://github.com/santiago-iturralde/TP-especial-Fundamentos.git](https://github.com/santiago-iturralde/TP-especial-Fundamentos.git)
+git clone https://github.com/santiago-iturralde/TP-especial-Fundamentos.git
 ```
 
 ### 2. Ingresa a la Carpeta
@@ -52,7 +52,6 @@ python -m venv venv
 (En algunos sistemas puede ser `python3 -m venv venv`)
 
 ### 4. Activa el Entorno Virtual
-**¡Este es el único paso que cambia según tu sistema!**
 
 * **En Windows (CMD o PowerShell):**
     ```bash
@@ -77,4 +76,4 @@ Una vez instaladas las librerías, ya estás listo. Ejecuta:
 ```bash
 jupyter notebook TPespecialFundamentos.ipynb
 ```
-Esto abrirá automáticamente el notebook en tu navegador, ¡listo para que ejecutes las celdas!
+Esto abrirá automáticamente el notebook en tu navegador
